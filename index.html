@@ -3,11 +3,94 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width:device-width,user-scalable=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/estilos.css">
+    <meta name='mobile-web-app-capable' content='yes'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <title>Blog de Musica</title>
   </head>
   <body>
+    <head>
+      <div class="bar-top">
+        <div class="row">
+          <div class="col-lg-2"><img class="logo-img" src="img/logo.png" alt="Logo"></div>
+          <div class="redes-sociales col-lg-2 offset-8">
+            <img class="redes-sociales img-rounded img-social" src="img/fb.png">
+            <img class="redes-sociales img-rounded img-social" src="img/ig.png">
+            <img class="redes-sociales img-rounded img-social" src="img/tt.png">
+          </div>
+        </div>
+      </div>
+    </head>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Miusic Blog</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Artistas <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Grupos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Top 10 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Letras <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Acordes <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-lg-12">
+            <br>
+            <div class="row contenido">
+              <div class="col-lg-8">
+                <article>
+                  <h2>Bob Marley</h2>
+                  <p>Robert Nesta Marley, más conocido como Bob Marley (Nine Mile, Saint Ann, Jamaica, 6 de febrero de 1945-Miami, Florida, Estados Unidos, 11 de mayo de 1981), fue un músico, guitarrista y compositor jamaicano. Durante su carrera musical fue el líder, compositor y guitarrista de las bandas de ska, rocksteady y reggae The Wailers (1964-1974) y Bob Marley & The Wailers (1974-1982).</p>
+                </article>
+              </div>
+              <div class="col-lg-4">
+                <img style="width: 100%" src="img/bob.jpg" alt="Bob_Marley">
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="row contenido">
+              <div class="col-lg-4">
+                <img style="width: 100%" src="img/electronic_music.jpg" alt="Festival">
+              </div>
+              <div class="col-lg-8">
+                <article>
+                  <h2>Música electrónica</h2>
+                  <p>La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos de aquel producido mediante tecnología electrónica, la cual también puede ser mezclada. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica. La producción de sonidos puramente electrónica puede lograrse mediante aparatos como el theremin, el sintetizador de sonido y el ordenador.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" style="background-color: blue; padding: 200px;">
 
+      </div>
+    </div>
   </body>
 </html>

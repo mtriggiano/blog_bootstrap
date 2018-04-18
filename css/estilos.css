@@ -1,0 +1,36 @@
+.bar-top {
+  background: #082D5E;
+}
+.logo-img {
+  width: 125px;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+}
+
+.contenido {
+  background-color: black;
+  text-align: left;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 10rem;
+}
+
+@media (max-width: 800px) {
+  .redes-sociales {
+    display: none;
+  }
+  .logo-img {
+    display: 0 auto;
+    margin-left: 40%;
+  }
+  .busqueda {
+    display: none;
+  }
+}
