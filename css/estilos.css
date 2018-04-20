@@ -15,11 +15,42 @@
 }
 
 .contenido {
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.articulos {
   background-color: black;
   text-align: left;
   color: white;
   padding-left: 3rem;
   padding-right: 10rem;
+  margin-left: 1px;
+}
+
+.buscador {
+  background-color:white;
+  padding: 20px;
+  margin-right:1px;
+  border-radius: 1 1 1 1 ;
+}
+
+.redes-sociales {
+  margin-right:: 1rem;
+  margin-top: 2.5rem;
+  style="color: white;"
+}
+
+img {
+  border-radius: 5px;
+}
+
+.redes-sociales > a {
+  color: white;
 }
 
 @media (max-width: 800px) {
